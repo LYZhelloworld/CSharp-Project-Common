@@ -25,6 +25,7 @@
   
   <ItemGroup>
     <None Include="$(SolutionDir)README.md" Pack="True" PackagePath="\"/>
+    <None Include="$(SolutionDir)LICENSE" Pack="True" PackagePath="\"/>
     <AdditionalFiles Include="$(SolutionDir)config\stylecop.json"/>
     <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
       <PrivateAssets>all</PrivateAssets>
